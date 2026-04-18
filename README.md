@@ -37,22 +37,25 @@ Un sistema de QA tradicional se detendría si los tests pasan. **Shadow-QA busca
 
 ## 📦 Instalación y Uso
 
-1.  **Clonar el repo:**
-    `ash
-    git clone [https://github.com/TU_USUARIO/AI-Shadow-QA.git](https://github.com/TU_USUARIO/AI-Shadow-QA.git)
-    cd AI-Shadow-QA
-    `
-2.  **Instalar dependencias:**
-    `ash
-    pip install -r requirements.txt
-    `
-3.  **Configuración local:**
-    - Asegúrate de tener **Ollama** con el modelo llama3.
-    - Crea un archivo .env (opcional si usas solo Ollama local).
-4.  **Ejecutar Auditoría:**
-    `ash
-    python main.py
-    `
+1. **Clonar el repo:**
+\\\ash
+git clone https://github.com/TU_USUARIO/AI-Shadow-QA.git
+cd AI-Shadow-QA
+\\\
+
+2. **Instalar dependencias:**
+\\\ash
+pip install -r requirements.txt
+\\\
+
+3. **Configuración local:**
+* Asegúrate de tener **Ollama** con el modelo \llama3\.
+* Crea un archivo \.env\ (opcional si usas solo Ollama local).
+
+4. **Ejecutar Auditoría:**
+\\\ash
+python main.py
+\\\
 
 ---
 
